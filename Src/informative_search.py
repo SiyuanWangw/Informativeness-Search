@@ -6,7 +6,7 @@ import numpy as np
 import random
 from tqdm import tqdm
 import math
-from select_steps import *
+from utils.select_steps import *
 import json
 from collections import Counter
 import fire
@@ -16,7 +16,7 @@ from transformers import GenerationConfig, AutoModelForCausalLM, AutoTokenizer
 from datasets import load_dataset
 import torch.nn.functional as F
 from transformers import BitsAndBytesConfig
-from custom_utils import CustomModelForCausalLM, prepare_input, CustomGenerationConfig
+from utils.custom_utils import CustomModelForCausalLM, prepare_input, CustomGenerationConfig
 from transformers.cache_utils import DynamicCache
 if torch.cuda.is_available():
     device = "cuda"
