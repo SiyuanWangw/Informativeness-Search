@@ -6,7 +6,7 @@ import numpy as np
 import random
 from tqdm import tqdm
 import math
-from select_steps import *
+from utils.select_steps import *
 import json
 from collections import Counter
 import fire
