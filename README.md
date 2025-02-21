@@ -1,2 +1,2 @@
-# InformativenessSearch
-Code of "Stepwise Informativeness Search for Improving LLM Reasoning"
+# Stepwise Informativeness Search for Improving LLM Reasoning
+
